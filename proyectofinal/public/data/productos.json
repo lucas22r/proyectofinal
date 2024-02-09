@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1yey0oh",
+    "nombre": "Album: avicii levels",
+    "precio": 20.99,
+    "categoria": "discografia",
+    "descripcion": "avicii levels",
+    "imagen": "imagen_album1.jpeg"
+  },
+  {
+    "id": "1yey0oi",
+    "nombre": "Album: happier marshmello",
+    "precio": 18.5,
+    "categoria": "discografia",
+    "descripcion": "happier marshmello bastille",
+    "imagen": "imagen_album2.jpeg"
+  },
+  {
+    "id": "1yey0oj",
+    "nombre": "Album: daft punk ram",
+    "precio": 25.75,
+    "categoria": "discografia",
+    "descripcion": "daft punk random access memories",
+    "imagen": "imagen_album3.jpeg"
+  },
+  {
+    "id": "1yey0ok",
+    "nombre": "Album: skrillex recess",
+    "precio": 22.0,
+    "categoria": "discografia",
+    "descripcion": "skrillex recess",
+    "imagen": "imagen_album4.jpeg"
+  },
+  {
+    "id": "1yey0ol",
+    "nombre": "buzo boris brejcha",
+    "precio": 30.0,
+    "categoria": "indumentaria",
+    "descripcion": "buzo artista boris brejcha high-tech minimal color negro .",
+    "imagen": "imagen_prenda1.jpeg"
+  },
+  {
+    "id": "1yey0om",
+    "nombre": "remera hot since 82",
+    "precio": 22.99,
+    "categoria": "indumentaria",
+    "descripcion": "remera manga corta artista hot since 82 color negra ",
+    "imagen": "imagen_prenda2.jpeg"
+  },
+  {
+    "id": "1yey0on",
+    "nombre": "remera tomorrowland",
+    "precio": 35.5,
+    "categoria": "indumentaria",
+    "descripcion": "remera festival tomorrowland en distintos colores",
+    "imagen": "imagen_prenda3.jpeg"
+  },
+  {
+    "id": "1yey0oo",
+    "nombre": "remera Ultra music festival",
+    "precio": 28.75,
+    "categoria": "indumentaria",
+    "descripcion": "remera mana corta festival ultra electronic music .",
+    "imagen": "imagen_prenda4.jpeg"
+  },
+  {
+    "id": "1yey0op",
+    "nombre": "Manual subversivo de musica electronica",
+    "precio": 15.0,
+    "categoria": "libros",
+    "descripcion": "musica electronica para principiantes, aprende a componer tracks desde 0",
+    "imagen": "imagen_libro1.jpeg"
+  },
+  {
+    "id": "1yey0oq",
+    "nombre": "produccion de musica",
+    "precio": 18.99,
+    "categoria": "libros",
+    "descripcion": "como producir musica desde cero, el manual mas facil de leer para gente sin conocimientos previos",
+    "imagen": "imagen_libro2.jpeg"
+  },
+  {
+    "id": "1yey0or",
+    "nombre": "Techno rebels",
+    "precio": 21.5,
+    "categoria": "libros",
+    "descripcion": "los renegados del funk electronico",
+    "imagen": "imagen_libro3.jpeg"
+  },
+  {
+    "id": "1yey0os",
+    "nombre": "Loops",
+    "precio": 24.75,
+    "categoria": "libros",
+    "descripcion": "la historia de la musica electronica en el siglo xx",
+    "imagen": "imagen_libro4.jpeg"
+  },
+  {
+    "id": "1yey0ot",
+    "nombre": "DVD: skrillex abduction reborn",
+    "precio": 12.99,
+    "categoria": "DVD",
+    "descripcion": "skrillex abduction reborn",
+    "imagen": "imagen_dvd1.jpeg"
+  },
+  {
+    "id": "1yey0ou",
+    "nombre": "DVD: interstella 5555",
+    "precio": 14.5,
+    "categoria": "DVD",
+    "descripcion": "insterstella a daft punk film",
+    "imagen": "imagen_dvd2.jpeg"
+  },
+  {
+    "id": "1yey0ov",
+    "nombre": "DVD: daft punk unchained",
+    "precio": 19.75,
+    "categoria": "DVD",
+    "descripcion": "daft punk unchained",
+    "imagen": "imagen_dvd3.jpeg"
+  },
+  {
+    "id": "1yey0ow",
+    "nombre": "DVD: tiesto in concert",
+    "precio": 16.0,
+    "categoria": "DVD",
+    "descripcion": "tiesto in concert",
+    "imagen": "imagen_dvd4.jpeg"
+  }
+]

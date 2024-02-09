@@ -1,0 +1,419 @@
+/* Fonts*/
+/*colores*/
+/* Resets*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*fonts*/
+@font-face {
+  font-family: "gudea-regular";
+  src: url("../assets/fonts/Gudea-Regular.ttf");
+}
+@font-face {
+  font-family: "montserrat";
+  src: url("../assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "kelmscot";
+  src: url("../assets/fonts/KELMSCOT.TTF");
+}
+/*Generalidades Body*/
+body {
+  background-color: skyblue;
+  font-family: "gudea-regular";
+  color: black;
+}
+
+body .offcanvas {
+  overflow-x: hidden;
+  box-shadow: 2px 2px 5px #212121;
+  background-color: skyblue;
+  font-family: "gudea-regular", Courier, monospace;
+}
+
+body .offcanvas:hover{
+  box-shadow: 2px 2px 5px white;
+}
+
+body .offcanvas .canvascard 
+{
+background-color: skyblue;
+border: none;
+}
+
+
+body .offcanvas .offcanvas-header .logoCarritoCanvas{
+  width: 50px;
+  background-color: rgba(92, 91, 91, 0.5058823529);
+  padding: 9px;
+  border-radius: 18px;
+}
+
+body .offcanvas .offcanvas-body .cardCanvasCarrito{
+  background-color: rgba(92, 91, 91, 0.5058823529);
+  
+}
+
+body .offcanvas .offcanvas-body .cardCanvasCarrito .eliminarElementoCarrito{
+  width: 20px;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+body .main {
+  overflow-x: hidden;
+  background-color: skyblue;
+  font-family: "gudea-regular", Courier, monospace;
+}
+body .main .fontTitulo {
+  font-family: "montserrat";
+}
+body .main .fontTituloSec {
+  font-family: "montserrat";
+}
+body .main .bold {
+  font-weight: bold;
+}
+
+body .header {
+  background-color: black;
+  border-bottom: 2px solid skyblue;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  max-height: 96px;
+}
+body .header .gudeaNav {
+  font-family: "gudea-regular", Courier, monospace;
+  font-size: 1.5rem;
+  padding-left: 40px;
+}
+
+body .header .navbar {
+  max-height: 96px;
+}
+
+body .header .gudeaNav .logo {
+  max-height: 85px;
+  max-width: 90px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+body .header .gudeaNav .navbar-toggler-icon {
+  background-image: url("../assets/icons/bone-nav.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  filter: invert(100%);
+}
+body .header .gudeaNav .navbar-nav .nav-item .nav-link {
+  color: #beada3;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+body .header .gudeaNav .navbar-nav .dropdown-menu .dropdown-item {
+  color: #beada3;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+body .header .gudeaNav .navbar-nav .dropdown-menu .dropdown-item:hover{
+  background-color: rgba(92, 91, 91, 0.5058823529) ;
+}
+
+body .main .mapaGoogle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body .main .mapaGoogle .mapaIframe {
+  width: 75%;
+  height: 300px;
+  box-shadow: 2px 2px 5px #000000;
+  border-radius: 17px;
+}
+
+
+body .header .gudeaNav .navbar-nav .nav-item .active {
+  color: skyblue;
+}
+body .header .gudeaNav .navbar-toggler:active {
+  animation: shake 0.5s;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-5px);
+  }
+  20% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-5px);
+  }
+  60% {
+    transform: translateX(5px);
+  }
+  70% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@media screen and (min-width: 768px) {
+  body .gudeaNav {
+    font-size: 2rem;
+  }
+  body .gudeaNav .logo {
+    max-width: 200px;
+  }
+  body .gudeaNav .navbar-nav .nav-link {
+    padding: 10px 20px;
+    background-color: rgba(92, 91, 91, 0.5058823529);
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body .gudeaNav .navbar-nav .nav-link:hover {
+    box-shadow: 2px 2px 5px #000000;
+  }
+  body .gudeaNav .navbar-nav .active {
+    background-color: rgba(126, 122, 122, 0.4431372549);
+  }
+}
+
+body .footer {
+  background-color: #212121;
+  color: #beada3;
+  font-family: "gudea-regular", Courier, monospace;
+  bottom: 0;
+}
+body .footer .footerRedes .contenedorRedes .logoRedes {
+  width: 40px;
+}
+body .footer .footerCopyright {
+  border-top: 2px solid skyblue;
+  border-radius: 7px;
+}
+@media screen and (min-width: 768px) {
+  body .footer .footerRedes .contenedorRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  body .footer .footerRedes .contenedorRedes .logoRedes {
+    width: 50px;
+  }
+}
+
+body .main .kenburns-top {
+  animation: kenburns-top 5s ease-out both;
+}
+body .main .bloqueTextoFrontpage {
+  background-color: rgba(33, 33, 33, 0.3019607843);
+  box-shadow: 2px 2px 5px #000000;
+}
+
+@keyframes kenburns-top {
+  0% {
+    transform: scale(1) translateY(0);
+    transform-origin: 50% 16%;
+  }
+  100% {
+    transform: scale(1.25) translateY(-15px);
+    transform-origin: top;
+  }
+}
+@media screen and (min-width: 768px) {
+  body .main .carousel-item {
+    max-height: 84vh;
+  }
+  body .main .carousel-item .fontTitulo {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  body .main .carousel-item .textoSlide {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+  body .main .bloqueTextoFrontpage {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  body .main .mapaIframe {
+    filter: sepia(0.7);
+  }
+  body .main .mapaIframe:hover {
+    filter: none;
+  }
+}
+
+body .main .seccionTienda .tituloTienda {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+}
+body .main .seccionTienda .tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+body .main .seccionTienda .card {
+  border-radius: 25px;
+}
+body .main .seccionTienda .card .card-img-top {
+  border-radius: 25px;
+}
+body .main .seccionTienda .card .card-body {
+  color: #beada3;
+  padding: 0px;
+}
+body .main .seccionTienda .card .card-body .card-text .text-muted {
+  padding: 2px;
+  border-radius: 7px;
+  background-color: skyblue;
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+body .main .card {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+  box-shadow: 2px 2px 5px #000000;
+}
+body .main .card .btn-secondary {
+  background-color: #beada3;
+}
+body .main .card .btn-secondary .botonInsc {
+  text-decoration: none;
+  color: #212121;
+}
+body .main .card:hover {
+  box-shadow: 3px 3px 7px #fff;
+}
+
+body .main .subtituloyBanner {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+}
+body .main .subtituloyBanner .tracking-in-contract-bck {
+  animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+body .main .formularioPerfil {
+  background-color: rgba(33, 33, 33, 0.822);
+  box-shadow: 2px 2px 5px #000000;
+}
+
+body .main .formularioPerfil .modal-title {
+  color: skyblue;
+}
+
+body .main .formularioPerfil .input-group-text {
+  background-color: skyblue;
+}
+body .main .formularioPerfil .btn-outline-primary {
+  color: skyblue;
+  border-color: skyblue;
+}
+body .main .formularioPerfil .btn-outline-primary:hover {
+  color: #000000;
+  background-color: skyblue;
+  border-color: #000000;
+}
+body .main .formularioPerfil .btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(33, 33, 33, 0.6784313725);
+}
+body .main .formularioPerfil .form-control:focus {
+  border-color: skyblue;
+  box-shadow: 0 0 0 0.25rem rgba(33, 33, 33, 0.6784313725);
+}
+body .main .formularioPerfil .form-select:focus {
+  border-color: skyblue;
+  box-shadow: 0 0 0 0.25rem rgba(33, 33, 33, 0.6784313725);
+}
+body .main .formularioPerfil .form-label {
+  background-color: skyblue;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 0.3rem;
+}
+
+body .sectionCarritoNotificacion {
+  display: flex;
+  justify-content: flex-end;
+}
+body .sectionCarritoNotificacion .logoCarrito {
+  width: 90px;
+  background-color: rgba(92, 91, 91, 0.5058823529);
+  padding: 9px;
+  border-radius: 18px;
+}
+
+body .sectionCarritoNotificacion .botonCarrito {
+  padding: 0px;
+  border-radius: 18px;
+}
+
+body .sectionCarritoNotificacion .notificacionCarrito {
+  border: solid 1px black;
+  text-align: center;
+  border-radius: 100px;
+  background-color: white;
+  width: 25px;
+  box-shadow: 1px 1px 3px #000000;
+}
+
+body .sectionCarritoNotificacion .logoCarrito:hover {
+  box-shadow: 2px 2px 5px #000000;
+  background-color: #075E54;
+}
+
+body .main .contenedor404 {
+  background-color: rgba(33, 33, 33, 0.6784313725);
+  box-shadow: 2px 2px 5px #000000;
+}
+
